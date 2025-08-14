@@ -1480,8 +1480,7 @@ body {
     --dms-icon-svg-url: url('https://raw.githubusercontent.com/Wiwi450707/Wiwi450707.github.io/75a655964c5fd95352ad81a04ffb733b639384fb/home.svg'); /* icon svg url. MUST BE A SVG. */
     --dms-icon-svg-size: 90%; /* size of the svg (css mask-size property) */
     --dms-icon-color-before: var(--icon-secondary); /* normal icon color */
-    --dms-icon-color-after: var(--red-1);
-    --dms-icon-logo-after: url('https://github.com/Wiwi450707/Wiwi450707.github.io/blob/main/lock.svg');/* icon color when button is hovered/selected */
+    --dms-icon-color-after: var(--red-1);/* icon color when button is hovered/selected */
     --dms-background-image-url: url(''); /* url of the background image */
     --dms-background-image-size: cover; /* size of the background image (css background-size property) */
     --dms-background-color: linear-gradient(70deg, var(--blue-2), var(--purple-2), var(--red-2)); /* fixed color/gradient (css background property) */
@@ -1496,12 +1495,10 @@ body {
 @container body style(--custom-dms-icon: off) {
     .wrapper__6e9f8[data-list-item-id='guildsnav___home'] > .childWrapper__6e9f8 {
         color: var(--dms-icon-color-before);
-        icon: var(--dms-icon-svg-url)
     }
     .wrapper__6e9f8[data-list-item-id='guildsnav___home']:hover > .childWrapper__6e9f8,
     .wrapper__6e9f8[data-list-item-id='guildsnav___home'].selected__6e9f8 > .childWrapper__6e9f8 {
         color: var(--dms-icon-color-after);
-        icon: var(--dms-icon-logo-after);
     }
 }
 
@@ -1529,7 +1526,6 @@ body {
     .wrapper__6e9f8[data-list-item-id='guildsnav___home'].selected__6e9f8 > .childWrapper__6e9f8::before {
         background: var(--dms-icon-color-after);
         transform: rotate(-360deg) scale(0.8);
-        icon: var(--dms-icon-logo-after);
     }
 
     @container body style(--animations: on) {
