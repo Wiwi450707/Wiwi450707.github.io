@@ -440,9 +440,9 @@ body {
 }
 
 body {
-    --font-primary: var(--font), 'gg sans';
-    --font-display: var(--font), 'gg sans';
-    --font-code: var(--code-font), 'gg mono';
+    --font-primary: var(--font), 'cursive';
+    --font-display: var(--font), 'cursive';
+    --font-code: var(--code-font), 'cursive';
 }
 
 [class*='scroll'] {
