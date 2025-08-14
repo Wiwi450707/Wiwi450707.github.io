@@ -1,5 +1,5 @@
 /* main.css */
-@import url('https://fonts.googleapis.com/css2?family=Delius&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap');
 
 :root {
     container-name: root;
@@ -13,7 +13,7 @@ body {
     container-name: body;
 
     /* font, change to '' for default discord font */
-    --font: 'Delius';
+    --font:  "Delius", cursive;
     --code-font: '';
 
     /* sizes */
