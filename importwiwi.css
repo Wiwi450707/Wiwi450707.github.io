@@ -1496,11 +1496,12 @@ body {
 @container body style(--custom-dms-icon: off) {
     .wrapper__6e9f8[data-list-item-id='guildsnav___home'] > .childWrapper__6e9f8 {
         color: var(--dms-icon-color-before);
+        icon: var(--dms-icon-svg-url)
     }
     .wrapper__6e9f8[data-list-item-id='guildsnav___home']:hover > .childWrapper__6e9f8,
     .wrapper__6e9f8[data-list-item-id='guildsnav___home'].selected__6e9f8 > .childWrapper__6e9f8 {
         color: var(--dms-icon-color-after);
-        icon2: var(--dms-icon-logo-after);
+        icon: var(--dms-icon-logo-after);
     }
 }
 
@@ -1528,6 +1529,7 @@ body {
     .wrapper__6e9f8[data-list-item-id='guildsnav___home'].selected__6e9f8 > .childWrapper__6e9f8::before {
         background: var(--dms-icon-color-after);
         transform: rotate(-360deg) scale(0.8);
+        icon: var(--dms-icon-logo-after);
     }
 
     @container body style(--animations: on) {
